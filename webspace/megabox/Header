@@ -1,0 +1,26 @@
+<?php
+	session_start();
+?>
+
+<!doctype html>
+<html>
+ <head>
+ <title>Megabox</title>
+
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+ <link rel = "stylesheet" type = "text/css"  href = "styles.css">
+
+ </head>
+
+ <body>
+ <div id = "container">
+	<div id = "titlebar">
+	<div class = "fixedwidth" id= "titleb">
+		<div id ="logodiv">
+		<img src="images/logo.png"/>	
+		</div>
+	</div>
+	</div>
