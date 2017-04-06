@@ -1,0 +1,27 @@
+<?php
+
+	include 'header.php';
+?>
+   
+	
+	<form action = "includes/signup.inc.php" method = "POST">
+	<div id = "signupdiv">
+		<input type ="text" name= "first" placeholder = "first name"></br>
+		<input type ="text" name = "last" placeholder ="last name"/></br>
+		<input type ="text" name = "uid" placeholder ="user ID"/></br>
+		<input type ="text" name = "pwd" placeholder ="password"/></br>
+		</div>
+	<div id = "signupbutton">
+		<button type = "submit"> SIGN UP </button> <br>
+	
+	
+	
+	<?php
+		if(isset($_SESSION['id'])){
+			echo $_SESSION['id'];
+		}else
+		{
+			echo "you are not logged in!";
+		}
+		
+	?>
